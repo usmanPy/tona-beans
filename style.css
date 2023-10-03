@@ -1,0 +1,237 @@
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+}
+
+/* PAGE CONTAINER */
+
+.page-container {
+  margin: auto;
+}
+.main-header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+/* LOGO */
+.main-header a.logo {
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  color: #341414;
+  padding: 20px;
+}
+
+/* NAVIGATION */
+.header-nav {
+  float: right;
+}
+.header-nav a {
+  color: #341414;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.header-nav a:hover {
+  background-color: #d8ffa6;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* TOP BANNER */
+.top-banner {
+  height: 500px;
+  background-color: #d8ffa6;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+.banner-heading {
+  margin: 0;
+  font-size: 66px;
+  text-transform: uppercase;
+  padding-top: 89px;
+  color: #341414;
+}
+.banner-subheading {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #341414;
+}
+
+.banner-memeber-button {
+  background-color: #341414;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+
+.banner-image {
+  height: 388px;
+  width: 40%;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.products-overview-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.products-overview-child {
+  margin: 28px;
+  padding: 15px;
+  height: auto;
+  width: 20%;
+  font-weight: bold;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.products-overview-child img {
+  height: 250px;
+}
+
+.view-products-button {
+  background-color: #d8ffa6;
+  border-radius: 30px;
+  color: #341414;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: underline solid #d8ffa6 50%;
+  text-decoration-thickness: 5px;
+}
+
+.hero-image {
+  width: 280px;
+  height: auto;
+}
+
+.global-impact {
+  display: flex;
+  align-items: flex-start;
+}
+
+.global-impact-child {
+  margin: 28px;
+  padding: 15px;
+  height: auto;
+}
+
+.global-impact-child h3 {
+  font-size: 40px;
+}
+
+.global-impact-child p {
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.round-background {
+  background-color: #d8ffa6;
+  border-radius: 100%;
+  width: 470px;
+  height: 470px;
+}
+
+.global-impact-child h6 {
+  font-size: 100px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #341414;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 110px;
+}
+
+/* HISTORY OF TONA */
+.history-of-tona-parent {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.history-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: rgba(76, 175, 80, 0.6);
+  padding: 20px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 50vh;
+}
+
+.testimonials-content {
+  font-size: 50px;
+  font-weight: bold;
+  width: 40%;
+  height: 400px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.testimonials-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.username {
+  font-size: 20px;
+}
+
+/* FOOTER */
+.footer {
+  overflow: hidden;
+  background-color: #341414;
+  padding: 20px 10px;
+}
+/* LOGO */
+.footer a.logo {
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.footer-nav {
+  float: right;
+}
+.footer-nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
